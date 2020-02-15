@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Function Creating
+      //   function sayHello() {
+      //     console.log("Say Hello Called");
+      //   }
+
+      var sayHello = function() {
+        console.log("Say hello called");
+      };
+
+      //   var sayHello = function sayHi() {
+      //     console.log("Say Hi Funciotn Called");
+      //   };
+
+      //   function Calling
+      //   sayHello();
+
+      //   function calculate() {
+      //     var investment = 650;
+      //     var noOfBags = 100;
+      //     var contPerbag = 10;
+      //     var totalCost = noOfBags * contPerbag;
+
+      //     var profit = totalCost - investment;
+      //     document.write(totalCost + "<br>");
+      //     document.write("Total Profit Earned : " + profit);
+      //   }
+
+      function calculateProfit(noOfBags, costPerBag, investment) {
+        var profit = noOfBags * costPerBag - investment;
+        document.write("Total Profit Earned is : " + profit);
+      }
+      calculateProfit(1000, 10, 1000);
+    </script>
+  </body>
+</html>
